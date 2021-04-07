@@ -79,37 +79,187 @@ function clearStatusClass(element) {
     element.classList.remove('wrong')
 }
 const questions = [{
-        question: 'What is 2 + 2?',
+        question: 'Those things made by human beings are called?',
         answers: [
-            { text: '4', correct: true },
-            { text: '22', correct: false }
+            { text: 'beautiful things', correct: false },
+            { text: 'artificial things', correct: true },
+            { text: 'natural things', correct: false },
+            { text: 'non natural things', correct: false }
+
         ]
     },
 
     {
-        question: 'Who is the best YouTuber?',
+        question: 'Which part of the plant produces seeds and fruits?',
         answers: [
-            { text: 'Web Dev Simplified', correct: true },
-            { text: 'Traversy Media', correct: true },
-            { text: 'Dev Ed', corect: true },
-            { text: 'Fun Fun Function', correct: true }
+            { text: 'fruits', correct: false },
+            { text: 'flowers', correct: true },
+            { text: 'stem', corect: false },
+            { text: 'petal', correct: false }
         ]
     },
     {
-        question: 'Is web development fun?',
+        question: 'Diseases people get from polluted water are called?',
         answers: [
-            { text: 'kinda', correct: false },
-            { text: 'Yes!!!', correct: true },
-            { text: 'Um no', correct: false },
-            { text: 'IDK', correct: false }
+            { text: 'air borne', correct: false },
+            { text: 'sexually transmitted', correct: false },
+            { text: 'water borne', correct: true },
+            { text: 'malaria', correct: false }
         ]
     },
 
     {
-        question: 'What is 4 * 2?',
+        question: 'Which of these is a sense organ in human beings?',
         answers: [
-            { text: '6', correct: false },
+            { text: 'skin', correct: true },
+            { text: 'mouth', correct: false },
+            { text: 'hair', correct: false },
+            { text: 'feet', correct: false }
+
+        ]
+    },
+
+    {
+        question: 'Types of Habitat includes all except?',
+        answers: [
+            { text: 'land', correct: false },
+            { text: 'aboreal', correct: false },
+            { text: 'cloudy', correct: true },
+            { text: 'aquatic', correct: false }
+
+        ]
+    },
+
+    {
+        question: 'A particular place where a plant or animal lives is known as?',
+        answers: [
+            { text: 'surrounding', correct: false },
+            { text: 'house', correct: false },
+            { text: 'society', correct: false },
+            { text: 'habitat', correct: true }
+
+        ]
+    },
+
+    {
+        question: 'One of these is not the benefit of science?',
+        answers: [
+            { text: 'drug manufacturing', correct: false },
+            { text: 'food production', correct: false },
+            { text: 'disease', correct: true },
+            { text: 'technology', correct: false }
+
+        ]
+    },
+
+    {
+        question: 'What covers the body of a Lizard?',
+        answers: [
+            { text: 'hair', correct: false },
+            { text: 'scales', correct: true },
+            { text: 'feathers', correct: false },
+            { text: 'shells', correct: false }
+
+        ]
+    },
+
+    {
+        question: 'A person who has good knowledge of science and makes researches to achieve greater results is known as?',
+        answers: [
+            { text: 'A scientist', correct: true },
+            { text: 'A farmer', correct: false },
+            { text: 'A teacher', correct: false },
+            { text: 'A musician', correct: false }
+
+        ]
+    },
+
+    {
+        question: 'A Spider has how many legs?',
+        answers: [
+            { text: '4', correct: false },
+            { text: '10', correct: false },
+            { text: '5', correct: false },
             { text: '8', correct: true }
+
+        ]
+    },
+
+    {
+        question: 'Which type of object attracts or pulls other metals objects?',
+        answers: [
+            { text: 'metals', correct: false },
+            { text: 'magnet', correct: true },
+            { text: 'gum', correct: false },
+            { text: 'paper tape', correct: false }
+
+        ]
+    },
+
+    {
+        question: 'The ability to do work is called?',
+        answers: [
+            { text: 'energy', correct: true },
+            { text: 'position', correct: false },
+            { text: 'change', correct: false },
+            { text: 'work', correct: false }
+
+        ]
+    },
+
+    {
+        question: 'An area of darkness created when source of light is blocked is known as?',
+        answers: [
+            { text: 'darkness', correct: false },
+            { text: 'shadow', correct: true },
+            { text: 'image', correct: false },
+            { text: 'mirror', correct: false }
+
+        ]
+    },
+
+    {
+        question: 'What forms pictures in the sky called constellations?',
+        answers: [
+            { text: 'moon', correct: false },
+            { text: 'sun', correct: false },
+            { text: 'stars', correct: true },
+            { text: 'earth', correct: false }
+
+        ]
+    },
+
+    {
+        question: 'How many years does it take the earth to make a complete trip around the sun?',
+        answers: [
+            { text: 'two years', correct: false },
+            { text: 'five years', correct: false },
+            { text: 'three years', correct: false },
+            { text: 'one year', correct: true }
+
+        ]
+    },
+
+    {
+        question: 'The primary source of energy is?',
+        answers: [
+            { text: 'solar', correct: true },
+            { text: 'chemical', correct: false },
+            { text: 'electrical', correct: false },
+            { text: 'potential', correct: false }
+
+        ]
+    },
+
+    {
+        question: 'Any sound unpleasant to the ear is called?',
+        answers: [
+            { text: 'music', correct: false },
+            { text: 'lyrics', correct: false },
+            { text: 'dance', correct: false },
+            { text: 'noise', correct: true }
+
         ]
     }
+
 ]

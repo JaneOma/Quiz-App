@@ -11,6 +11,10 @@
     --hue-correct: 145;
 }
 
+h1 {
+    color: royalblue
+}
+
 body {
     --hue: var(--hue-neutral);
     padding: 0;
@@ -20,7 +24,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
+    background-color: (whitesmoke, 100%, 20%);
 }
 
 body.correct {
